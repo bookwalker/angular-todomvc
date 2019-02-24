@@ -1,6 +1,6 @@
 import {ChangeDetectionStrategy, Component, DoCheck, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 
 import {Todo, TodoUtils} from './todo.model';
 import {Filter, FilterUtil} from './filter.model';
